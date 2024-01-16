@@ -16,7 +16,7 @@ public class EmailPlugin
     public static string SendEmail([Description("The email templated message that will be used for sending email")]
      string message)
     {
-        return "Success::Email Sent with message " + message;
+        return "Success::Email Sent with message ::" + message;
     }
 
 }
