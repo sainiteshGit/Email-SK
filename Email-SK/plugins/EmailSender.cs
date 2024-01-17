@@ -34,7 +34,7 @@ public class EmailSender
 
         var result = (await plan.InvokeAsync(kernelWithMail,[])).Trim();
 
-        Console.WriteLine($"Results : {result}");
+        Console.WriteLine($"Results :: {result}");
 #pragma warning restore SKEXP0060 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
 
         return result;
