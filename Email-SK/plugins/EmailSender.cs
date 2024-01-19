@@ -9,10 +9,10 @@ namespace Plugins;
 public class EmailSender
 {
     [KernelFunction]
-    [Description("Sends a message as an email")]
+    [Description("Sends a message as an email with given message to the recipientemail address provided")]
     public async Task<string> SendAsync(
         Kernel kernel,
-        [Description("The message that needs to be send using the email template; describe it in 2-3 sentences to ensure full context is provided")] string message
+        [Description("The message that needs to be send to the recipient email address using the email template; describe it in 2-3 sentences to ensure full context is provided")] string message
         )
     {
         var kernelWithMail = kernel.Clone();
