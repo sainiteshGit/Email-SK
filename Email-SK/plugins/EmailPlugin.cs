@@ -25,7 +25,6 @@ public class EmailPlugin
     }
 
 
-    //Hey send an email with message "How are you this is recipeint configured email" using the email address: s
     [KernelFunction, Description("Sends the email with the given input email templated message and the inputted receipient email address")]
     public static string SendEmail([Description("The email templated message that will be used for sending email")]
      string message, [Description("The recepient email to whom the email or message needs to be sent")]
