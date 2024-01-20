@@ -41,5 +41,3 @@ public class EmailSender
 
     }
 }
-
-///Users/SaiNitesh/Projects/sk-play/Email-SK/Email-SK/plugins/EmailSender.cs(27,27): Error SKEXP0060: 'Microsoft.SemanticKernel.Planning.Handlebars.HandlebarsPlanner' is for evaluation purposes only and is subject to change or removal in future updates.Suppress this diagnostic to proceed. (SKEXP0060) (Email-SK)
