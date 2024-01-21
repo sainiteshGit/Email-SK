@@ -28,7 +28,7 @@ public class EmailSender
 
         //Create a plan
         var plan = await planner.CreatePlanAsync(kernelWithMail, message);
-        Console.WriteLine($"Plan: {plan}");
+        Console.WriteLine($"Plan::: {plan}");
 
         //Execute the plan
 
