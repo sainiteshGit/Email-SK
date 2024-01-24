@@ -39,7 +39,7 @@ public class EmailPlugin
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
             client.UseDefaultCredentials = false;
             client.EnableSsl = true;
-            client.Credentials = new NetworkCredential("sainiteshad@GMAIL.COM", "xxxxxx"); //yyyyyy
+            client.Credentials = new NetworkCredential("sainiteshad@GMAIL.COM", "yyyyyyy-yyyyy"); //xxxxxxxxx
 
 
             using (var mailMessage = new MailMessage(
