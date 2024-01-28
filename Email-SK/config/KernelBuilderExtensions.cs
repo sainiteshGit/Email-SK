@@ -6,8 +6,8 @@ internal static class KernelBuilderExtensions
     {
         kernelBuilder.Services.AddOpenAIChatCompletion(
             modelId: "gpt-3.5-turbo",
-            apiKey: "xxxxxx",
-            orgId: "xxxxxx"
+            apiKey: "xxxxxxxxxx",
+            orgId: "org-xxxxxx"
          );
 
         return kernelBuilder;
