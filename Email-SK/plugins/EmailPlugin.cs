@@ -39,7 +39,9 @@ public class EmailPlugin
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
             client.UseDefaultCredentials = false;
             client.EnableSsl = true;
-            client.Credentials = new NetworkCredential("sainiteshad@GMAIL.COM", "yyyyyy"); //yyyy
+            client.Credentials = new NetworkCredential("sainiteshad@GMAIL.COM", "xxxxxxxxxx");
+
+
 
 
             using (var mailMessage = new MailMessage(
@@ -49,7 +51,7 @@ public class EmailPlugin
             {
 
                 mailMessage.Subject = "SK Config";
-                mailMessage.Body = ".........................Semantic Kernel ------------------- "+ message;
+                mailMessage.Body = "-------...... Semantic Kernel .....------"+ message;
 
                 client.Send(mailMessage);
             }
